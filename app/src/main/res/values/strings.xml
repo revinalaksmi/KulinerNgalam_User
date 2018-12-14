@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KulinerNgalam</string>
+    <string name="appTitle">Kuliner Ngalam</string>
+    <string name="perintah">Masukkan username dan password</string>
+</resources>

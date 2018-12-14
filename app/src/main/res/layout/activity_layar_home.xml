@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_get_pembelian"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/bglogin"
+    tools:context=".LayarHome">
+
+        <View
+            android:id="@+id/blank_top"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"></View>
+
+        <TextView
+            android:id="@+id/txtWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Welcome!"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btGet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtWelcome"
+            android:layout_alignParentLeft="true"
+            android:background="@color/lavender"
+            android:text="Get"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtWelcome"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/lavender"
+            android:text="Favorite"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/btGet"></android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>
